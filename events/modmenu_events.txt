@@ -9,13 +9,13 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = modmenu_autobuild
+		name = autobuild_menu.1.name
 		trigger = {
 			has_global_flag = autobuild_installed
 		}
 		hidden_effect = {
 			country_event = {
-				id = autobuild_menu.3
+				id = autobuild_menu.1
 			}
 		}
 	}
