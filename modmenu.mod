@@ -6,4 +6,4 @@ tags={
 }
 picture="modmenu.jpg"
 remote_file_id="1087781345"
-supported_version="2.2.*"
+supported_version="2.3.*"
