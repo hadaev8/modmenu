@@ -31,20 +31,6 @@ country_event = {
 		}
 	}
 	option = {
-		name = modmenu_ncs
-		trigger = {
-			or = {
-				has_global_flag = has_nsc_active
-				has_global_flag = has_playable_guardians
-			}
-		}
-		hidden_effect = {
-			country_event = {
-				id = NSC_features.1
-			}
-		}
-	}
-	option = {
 		name = modmenu_hfe
 		trigger = {
 			has_global_flag = hfe_installed
@@ -97,6 +83,17 @@ country_event = {
 		hidden_effect = {
 			country_event = {
 				id = CrisisManagerMenu.3
+			}
+		}
+	}
+	option = {
+	name = modmenu_ftm
+		trigger = {
+			has_global_flag = ftm_mod_active
+		}
+		hidden_effect = {
+			country_event = {
+				id = ftm_transfer.901
 			}
 		}
 	}
