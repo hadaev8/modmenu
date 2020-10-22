@@ -98,6 +98,17 @@ country_event = {
 		}
 	}
 	option = {
+	name = modmenu_locateit
+		trigger = {
+			has_global_flag = locateit_activated
+		}
+		hidden_effect = {
+			country_event = {
+				id = locateit_menu.1
+			}
+		}
+	}
+	option = {
 		name = modmenu_exit
 		hidden_effect = {
 			country_event = {
