@@ -9,6 +9,17 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
+	name = modmenu_acemod
+		trigger = {
+			has_global_flag = acemod_installed
+		}
+		hidden_effect = {
+			country_event = {
+				id = acemod_menu.0
+			}
+		}
+	}
+	option = {
 		name = autobuild_menu.1.name
 		trigger = {
 			has_global_flag = autobuild_installed
