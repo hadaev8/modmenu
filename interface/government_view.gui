@@ -1273,7 +1273,7 @@ guiTypes = {
 			containerWindowType = {
 				name = "voice_types"
 				position = { x = 290 y = 50 }
-				size = { width = 250 height = 490 }
+				size = { width = 262 height = 490 }
 				verticalScrollBar = "right_vertical_slider"
 				margin = { top = 2 bottom = 2 }
 

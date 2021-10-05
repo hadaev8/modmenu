@@ -1,5 +1,4 @@
 namespace = modmenu
-
 # menu
 country_event = {
 	id = modmenu.1
@@ -7,9 +6,8 @@ country_event = {
 	desc = modmenu.1.desc
 	picture = GFX_evt_alien_city
 	is_triggered_only = yes
-
 	option = {
-	name = modmenu_acemod
+		name = modmenu_acemod
 		trigger = {
 			has_global_flag = acemod_installed
 		}
@@ -53,18 +51,6 @@ country_event = {
 		}
 	}
 	option = {
-		name = modmenu_terraforming_candidate_finder
-		custom_tooltip = modmenu_terraforming_candidate_finder.tooltip
-		trigger = {
-			has_global_flag = terraforming_candidate_finder_installed
-		}
-		hidden_effect = {
-			country_event = {
-				id = tcf_menu.1
-			}
-		}
-	}
-	option = {
 		name = edict_custom_difficulty
 		trigger = {
 			has_global_flag = custom_difficulty_active
@@ -75,17 +61,17 @@ country_event = {
 			}
 		}
 	}
-	option = {
-		name = modmenu_core_game_mechanics_and_ai
-		trigger = {
-			has_global_flag = core_game_mechanics_and_ai
-		}
-		hidden_effect = {
-			country_event = {
-				id = core_game_mechanics_and_ai_base.1
-			}
-		}
-	}
+	# option = {
+	# 	name = modmenu_core_game_mechanics_and_ai
+	# 	trigger = {
+	# 		has_global_flag = core_game_mechanics_and_ai
+	# 	}
+	# 	hidden_effect = {
+	# 		country_event = {
+	# 			id = core_game_mechanics_and_ai_base.1
+	# 		}
+	# 	}
+	# }
 	option = {
 		name = CrisisManagerTitleA
 		trigger = {
@@ -97,8 +83,9 @@ country_event = {
 			}
 		}
 	}
+	# Fleet Transfer Mod
 	option = {
-	name = modmenu_ftm
+		name = modmenu_ftm
 		trigger = {
 			has_global_flag = ftm_mod_active
 		}
@@ -108,8 +95,9 @@ country_event = {
 			}
 		}
 	}
+	# TODO find whatever mod it is
 	option = {
-	name = modmenu_locateit
+		name = modmenu_locateit
 		trigger = {
 			has_global_flag = locateit_activated
 		}
@@ -133,7 +121,6 @@ country_event = {
 	id = modmenu.2
 	hide_window = yes
 	is_triggered_only = yes
-
 	immediate = {
 		# old flag
 		set_global_flag = mod_menu_installed
