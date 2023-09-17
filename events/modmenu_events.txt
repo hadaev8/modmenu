@@ -17,28 +17,28 @@ country_event = {
 			}
 		}
 	}
-	option = {
-		name = autobuild_menu.1.name
-		trigger = {
-			has_global_flag = autobuild_installed
-		}
-		hidden_effect = {
-			country_event = {
-				id = autobuild_menu.1
-			}
-		}
-	}
-	option = {
-		name = modmenu_board_that_ship
-		trigger = {
-			has_global_flag = board_that_ship_installed
-		}
-		hidden_effect = {
-			country_event = {
-				id = board_that_ship_menu.1
-			}
-		}
-	}
+	# option = {
+	# 	name = autobuild_menu.1.name
+	# 	trigger = {
+	# 		has_global_flag = autobuild_installed
+	# 	}
+	# 	hidden_effect = {
+	# 		country_event = {
+	# 			id = autobuild_menu.1
+	# 		}
+	# 	}
+	# }
+	# option = {
+	# 	name = modmenu_board_that_ship
+	# 	trigger = {
+	# 		has_global_flag = board_that_ship_installed
+	# 	}
+	# 	hidden_effect = {
+	# 		country_event = {
+	# 			id = board_that_ship_menu.1
+	# 		}
+	# 	}
+	# }
 	option = {
 		name = modmenu_hfe
 		trigger = {
