@@ -1,1 +1,1 @@
-modmenu
+Modmenu mod for Stellaris game.
